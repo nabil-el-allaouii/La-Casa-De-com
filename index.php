@@ -347,7 +347,102 @@ include_once 'src/components/header.php';
             </div>
         </div>
     </section>
+
+    <section class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="contact__info">
+                        <h2 class="contact__title">NOUS SOMMES À VOTRE ÉCOUTE.</h2>
+                        <p class="contact__text">Une question ? Besoin d'informations sur nos services ? Contactez-nous pour échanger sur vos besoins, obtenir un devis ou des conseils personnalisés. Notre équipe est à votre écoute !</p>
+
+                        <div class="contact__methods">
+                            <div class="contact__method">
+                                <div class="contact__method-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                    </svg>
+                                </div>
+                                <div class="contact__method-content">
+                                    <h3 class="contact__method-title">PAR TÉLÉPHONE</h3>
+                                    <p class="contact__method-info">07 56 93 01 03</p>
+                                </div>
+                            </div>
+
+                            <div class="contact__method">
+                                <div class="contact__method-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="contact__method-content">
+                                    <h3 class="contact__method-title">PAR MAIL</h3>
+                                    <p class="contact__method-info">contact@lacasadecom.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact__method">
+                                <div class="contact__method-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="contact__method-content">
+                                    <h3 class="contact__method-title">NOUS RENCONTRER</h3>
+                                    <p class="contact__method-info">7bis rue Jeanne d'Arc, Rouen, France</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contact__form-container">
+                        <h2 class="contact__form-title">NOUS CONTACTER</h2>
+                        <form class="contact__form">
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <input type="text" class="contact__input" placeholder="VOTRE NOM" required>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <input type="email" class="contact__input" placeholder="VOTRE EMAIL" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <input type="tel" class="contact__input" placeholder="TÉLÉPHONE">
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <input type="text" class="contact__input" placeholder="SUJET">
+                                </div>
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col-12">
+                                    <textarea class="contact__textarea" placeholder="ÉCRIVEZ VOTRE MESSAGE" rows="6" required></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <button type="submit" class="contact__submit">ENVOYER</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
+
+<footer class="mt-5">
+    <div class="container">
+        <p>&copy; <?php echo date("Y"); ?> La Casa De Com. Tous droits réservés.</p>
+    </div>
+</footer>
 
 </body>
 
