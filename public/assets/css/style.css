@@ -398,3 +398,66 @@ footer {
     line-height: 1.6;
     color: #666;
 }
+
+.projects {
+    padding: 80px 0;
+    background-color: #f8f8f8;
+}
+
+.projects__header {
+    margin-bottom: 30px;
+}
+
+.projects__tag {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.projects__tag-line {
+    display: inline-block;
+    width: 3px;
+    height: 25px;
+    background-color: #cc3333;
+    margin-right: 15px;
+}
+
+.projects__title {
+    font-size: 1.4rem;
+    color: #666;
+    font-weight: 400;
+}
+
+.projects__card {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects__card-img {
+    width: 100%;
+    height: auto;
+}
+
+.projects__button {
+    display: inline-block;
+    background-color: #cc3333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 0;
+}
+
+.projects__button:hover {
+    background-color: #aa2222;
+    color: #fff;
+    text-decoration: none;
+}
+
+.projects__button-arrow {
+    margin-left: 10px;
+}

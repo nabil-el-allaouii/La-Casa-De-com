@@ -191,6 +191,54 @@ include_once 'src/components/header.php';
             </div>
         </div>
     </section>
+
+    <section class="projects">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-lg-8">
+                    <div class="projects__header">
+                        <div class="projects__tag">
+                            <span class="projects__tag-line"></span>
+                            PROJETS RÉCEMMENT RÉALISÉS
+                        </div>
+                        <h2 class="projects__title">Développez votre notoriété et valorisez vos produits et services</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="projects__card">
+                        <img src="https://img.freepik.com/free-vector/purple-themed-mobile-phone-surrounded-by-colorful-apps_52683-23827.jpg?t=st=1744277166~exp=1744280766~hmac=87b1d60f09e557daf4ff2453d4f3b3cd38ac77481464937a94ec0094639b3459&w=826" alt="Les réseaux sociaux, au service des pros" class="projects__card-img">
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="projects__card">
+                        <img src="https://img.freepik.com/free-vector/purple-themed-mobile-phone-surrounded-by-colorful-apps_52683-23827.jpg?t=st=1744277166~exp=1744280766~hmac=87b1d60f09e557daf4ff2453d4f3b3cd38ac77481464937a94ec0094639b3459&w=826" alt="Les réseaux sociaux, au service des pros" class="projects__card-img">
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="projects__card">
+                        <img src="https://img.freepik.com/free-vector/purple-themed-mobile-phone-surrounded-by-colorful-apps_52683-23827.jpg?t=st=1744277166~exp=1744280766~hmac=87b1d60f09e557daf4ff2453d4f3b3cd38ac77481464937a94ec0094639b3459&w=826" alt="Les réseaux sociaux, au service des pros" class="projects__card-img">
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="projects__card">
+                        <img src="https://img.freepik.com/free-vector/purple-themed-mobile-phone-surrounded-by-colorful-apps_52683-23827.jpg?t=st=1744277166~exp=1744280766~hmac=87b1d60f09e557daf4ff2453d4f3b3cd38ac77481464937a94ec0094639b3459&w=826" alt="Les réseaux sociaux, au service des pros" class="projects__card-img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-12 text-center">
+                    <a href="#" class="projects__button">VOIR PLUS <span class="projects__button-arrow">➝</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 </body>
