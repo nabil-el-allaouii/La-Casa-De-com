@@ -239,6 +239,58 @@ include_once 'src/components/header.php';
             </div>
         </div>
     </section>
+
+    <section class="faq">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-10 mx-auto">
+                    <div class="faq__tag">- FAQ</div>
+                    <h2 class="faq__title">QUESTIONS<br>FRÉQUENTES</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="faq__item">
+                            <div class="faq__question" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="false" aria-controls="faqOne">
+                                POURQUOI CHOISIR LA CASA DE COM PLUTÔT QU'UNE AUTRE AGENCE ?
+                                <span class="faq__icon"></span>
+                            </div>
+                            <div id="faqOne" class="collapse faq__answer" data-bs-parent="#faqAccordion">
+                                <div class="faq__content">
+                                    <p>La Casa de Com se distingue par son approche personnalisée, sa réactivité et son expertise pluridisciplinaire. Nous ne nous contentons pas de répondre à vos besoins, nous les anticipons pour vous proposer des solutions sur-mesure, innovantes et efficaces.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="faq__item">
+                            <div class="faq__question" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+                                QUELS SONT LES DÉLAIS DE CRÉATION D'UN SITE WEB VITRINE ?
+                                <span class="faq__icon"></span>
+                            </div>
+                            <div id="faqTwo" class="collapse faq__answer" data-bs-parent="#faqAccordion">
+                                <div class="faq__content">
+                                    <p>Les délais varient selon la complexité du projet et vos besoins spécifiques. En général, un site vitrine peut être réalisé en 3 à 6 semaines, incluant la phase de conception, de développement et de validation. Nous établissons un calendrier précis dès le début du projet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faq__item">
+                            <div class="faq__question" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+                                PROPOSEZ-VOUS DES FACILITÉS DE PAIEMENT ?
+                                <span class="faq__icon"></span>
+                            </div>
+                            <div id="faqThree" class="collapse faq__answer" data-bs-parent="#faqAccordion">
+                                <div class="faq__content">
+                                    <p>Oui, nous proposons plusieurs options de paiement pour s'adapter à vos besoins. Vous pouvez échelonner le paiement en plusieurs fois sans frais supplémentaires. Nous établissons un échéancier clair dès le début de notre collaboration.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 </body>
