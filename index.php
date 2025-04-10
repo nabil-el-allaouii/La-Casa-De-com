@@ -291,6 +291,62 @@ include_once 'src/components/header.php';
             </div>
         </div>
     </section>
+
+
+    <section class="create-website">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-6">
+                    <div class="create-website__text-container">
+                        <div class="create-website__content">
+                            <h2 class="create-website__title">CRÉER VOTRE SITE WEB</h2>
+                            <p class="create-website__text">
+                                Nous avons conçu un outil simple pour vous aider à faire votre site vitrine. Donnez corps
+                                à vos idées sans contraintes techniques ni limites de créativité. Notre mission, vous
+                                permettre de créer sereinement une vitrine digitale pour votre projet professionnel,
+                                associatif ou institutionnel.
+                            </p>
+                            <a href="/contactez-nous" class="create-website__button">
+                                CONTACTEZ-NOUS <span class="create-website__button-arrow">&#8594;</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="create-website__image-container">
+                        <img src="https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg?w=2000" alt="Team working together" class="create-website__image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="create-website">
+        <div class="container-fluid p-0">
+            <div class="row g-0">
+                <div class="col-lg-6">
+                    <div class="create-website__image-container">
+                        <img src="https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg?w=2000" alt="Team working together" class="create-website__image">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="create-website__text-container">
+                        <div class="create-website__content">
+                            <h2 class="create-website__title">CRÉER VOTRE SITE WEB</h2>
+                            <p class="create-website__text">
+                                Nous avons conçu un outil simple pour vous aider à faire votre site vitrine. Donnez corps
+                                à vos idées sans contraintes techniques ni limites de créativité. Notre mission, vous
+                                permettre de créer sereinement une vitrine digitale pour votre projet professionnel,
+                                associatif ou institutionnel.
+                            </p>
+                            <a href="/contactez-nous" class="create-website__button">
+                                CONTACTEZ-NOUS <span class="create-website__button-arrow">&#8594;</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 </body>
