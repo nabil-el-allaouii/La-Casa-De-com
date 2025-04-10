@@ -82,3 +82,77 @@ body {
     }
 }
 
+.hero {
+    position: relative;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/631/116/large_2x/minimal-dynamic-red-background-abstract-creative-digital-waves-background-modern-landing-page-concept-abstract-bright-smooth-waves-for-brochure-website-flyer-design-banner-vector.jpg);
+    min-height: 500px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero__content {
+    padding: 20px;
+}
+
+.hero__title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.hero__subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+.hero__mission {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero__highlight {
+    font-weight: 700;
+}
+
+.hero__button {
+    display: inline-block;
+    background-color: #cc3333;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.hero__button:hover {
+    background-color: #aa2222;
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero__button-arrow {
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 0;
+}
+
+footer {
+    background: #000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
