@@ -438,11 +438,9 @@ include_once 'src/components/header.php';
     </section>
 </main>
 
-<footer class="mt-5">
-    <div class="container">
-        <p>&copy; <?php echo date("Y"); ?> La Casa De Com. Tous droits réservés.</p>
-    </div>
-</footer>
+<?php
+include_once 'src/components/footer.php';
+?>
 
 </body>
 
