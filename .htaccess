@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# Redirect to the public directory
+RewriteRule ^(.*)$ public/$1 [L]
