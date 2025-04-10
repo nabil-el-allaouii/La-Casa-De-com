@@ -233,14 +233,12 @@ footer {
     font-size: 1.2em;
 }
 
-
-
 .expertise {
     padding: 30px 0;
     color: #fff;
     position: relative;
     background-image: url(https://img.freepik.com/free-vector/dark-black-background-design-with-stripes_1017-38064.jpg?t=st=1744275857~exp=1744279457~hmac=db38414c5691bf25322b1d33d8d1c1219e69d661035972158ed928afdf88c50e&w=1380);
-    background-size: cover; 
+    background-size: cover;
 }
 
 .expertise__content {
@@ -313,5 +311,90 @@ footer {
 .expertise__card-text {
     font-size: 0.95rem;
     line-height: 1.5;
+    color: #666;
+}
+
+.process {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.process__tag {
+    color: #cc3333;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.process__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+    line-height: 1.2;
+    color: #333;
+}
+
+.process__step {
+    text-align: center;
+    padding: 20px 15px;
+    height: 100%;
+}
+
+.process__icon-wrapper {
+    position: relative;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.process__icon {
+    width: 120px;
+    height: 120px;
+    background-color: #cc3333;
+    transform: rotate(45deg);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    position: relative;
+}
+
+.process__icon svg {
+    transform: rotate(-45deg);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+}
+
+.process__number {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -10px;
+    right: -10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.process__step-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.process__step-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
     color: #666;
 }

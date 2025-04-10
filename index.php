@@ -106,13 +106,93 @@ include_once 'src/components/header.php';
             </div>
         </div>
     </section>
+
+    <section class="process">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-10 mx-auto">
+                    <div class="process__tag">- PROCESSUS DE RÉALISATION DE VOTRE PROJET</div>
+                    <h2 class="process__title">UN PROCESSUS STRUCTURÉ<br>POUR DES RÉSULTATS PERCUTANTS</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="process__step">
+                        <div class="process__icon-wrapper">
+                            <div class="process__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                    <path d="M8 11h6"></path>
+                                    <path d="M11 8v6"></path>
+                                </svg>
+                            </div>
+                            <div class="process__number">01</div>
+                        </div>
+                        <h3 class="process__step-title">ANALYSE & STRATÉGIE</h3>
+                        <p class="process__step-text">Nous échangeons sur vos besoins, vos objectifs et votre marché pour définir une stratégie sur-mesure.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="process__step">
+                        <div class="process__icon-wrapper">
+                            <div class="process__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                                </svg>
+                            </div>
+                            <div class="process__number">02</div>
+                        </div>
+                        <h3 class="process__step-title">CRÉATION & CONCEPTION</h3>
+                        <p class="process__step-text">Nous donnons vie à votre projet avec un design impactant, des contenus engageants et une identité forte.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="process__step">
+                        <div class="process__icon-wrapper">
+                            <div class="process__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                                    <rect x="9" y="9" width="6" height="6"></rect>
+                                    <line x1="9" y1="2" x2="9" y2="4"></line>
+                                    <line x1="15" y1="2" x2="15" y2="4"></line>
+                                    <line x1="9" y1="20" x2="9" y2="22"></line>
+                                    <line x1="15" y1="20" x2="15" y2="22"></line>
+                                    <line x1="20" y1="9" x2="22" y2="9"></line>
+                                    <line x1="20" y1="14" x2="22" y2="14"></line>
+                                    <line x1="2" y1="9" x2="4" y2="9"></line>
+                                    <line x1="2" y1="14" x2="4" y2="14"></line>
+                                </svg>
+                            </div>
+                            <div class="process__number">03</div>
+                        </div>
+                        <h3 class="process__step-title">MISE EN ŒUVRE</h3>
+                        <p class="process__step-text">Nous déployons votre communication sur les canaux adaptés et optimisons chaque détail pour maximiser l'impact.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="process__step">
+                        <div class="process__icon-wrapper">
+                            <div class="process__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                                </svg>
+                            </div>
+                            <div class="process__number">04</div>
+                        </div>
+                        <h3 class="process__step-title">SUIVI & OPTIMISATION</h3>
+                        <p class="process__step-text">Nous analysons les performances et ajustons la stratégie pour assurer une croissance continue.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
-<footer class="mt-5">
-    <div class="container">
-        <p>&copy; <?php echo date("Y"); ?> La Casa De Com. Tous droits réservés.</p>
-    </div>
-</footer>
 </body>
 
 </html>
